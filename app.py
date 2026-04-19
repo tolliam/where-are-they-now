@@ -445,7 +445,7 @@ def overview_page():
         <div class="project-header" style="background:linear-gradient(135deg,#1a1a2e,#0f3460);">
           <h1 style="margin:0;font-size:2rem;">📺 Where Are They Now?</h1>
           <p style="margin:.5rem 0 0;opacity:.85;font-size:1.05rem;">
-            Six UK infrastructure projects from 2016–2018 — catching up on where they ended up
+            11 UK infrastructure projects from 2016–2018 — catching up on where they ended up
           </p>
         </div>""",
         unsafe_allow_html=True,
@@ -531,14 +531,14 @@ def main():
         st.markdown("*UK Infrastructure · 2016–2018*")
         st.divider()
 
-        options = ["🗺️  All Six Projects"] + [
+        options = ["🗺️  All Projects"] + [
             f"{STATUS_EMOJI.get(p['status'], '📍')}  {p['name']}" for p in PROJECTS
         ]
         selected_idx = st.radio("Navigate:", range(len(options)), format_func=lambda i: options[i], index=0)
 
         st.divider()
         st.markdown(
-            "<small>Six infrastructure projects across England and Wales. "
+            "<small>11 infrastructure projects across England and Wales. "
             "Select a project to explore its history and current status.</small>",
             unsafe_allow_html=True,
         )
