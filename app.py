@@ -278,32 +278,33 @@ PROJECTS = [
     },
     {
         "id": "gatwick",
-        "name": "Gatwick Development",
-        "subtitle": "Airport & Station Area Planning Statement",
-        "location": "Gatwick Airport, West Sussex",
+        "name": "Gatwick Airport Station",
+        "subtitle": "Station Redevelopment & Interchange",
+        "location": "Gatwick Airport Station, West Sussex",
         "coords": [51.1537, -0.1821],
-        "type": "Aviation / Mixed Use",
+        "type": "Rail / Station",
         "color": "#37474F",
         "years": "2016–2018",
-        "brief": "Planning and infrastructure work supporting development proposals at Gatwick Airport and its surrounding station and business district.",
+        "brief": "Redevelopment of Gatwick Airport railway station — the busiest airport station in the UK — to improve passenger capacity, interchange, and the overall travel experience.",
         "description": (
-            "Gatwick Airport has been the subject of long-running debate around capacity, expansion, "
-            "and the development of the surrounding area. The work at Arup (2016–2018) involved "
-            "transport and infrastructure assessment to support planning statements for development "
-            "in and around the airport estate, including the station interchange and adjacent "
-            "commercial areas.\n\n"
-            "This included transport modelling, surface access strategy, and structural input for "
-            "proposed development parcels in the Gatwick Airport Limited (GAL) masterplan area."
+            "Gatwick Airport station sits directly beneath the South Terminal and handles tens of "
+            "millions of passengers per year, making it one of the most intensively used stations "
+            "on the national rail network. The redevelopment work looked at improving the cramped "
+            "concourse, platform capacity, and interchange between rail, bus, and the airport terminals.\n\n"
+            "Arup's work (2016–2018) involved structural and civil engineering assessments of the "
+            "existing station infrastructure, feasibility studies for concourse expansion, and "
+            "coordination with Network Rail and Gatwick Airport Limited on the constraints of "
+            "operating within a live, high-footfall airport environment."
         ),
-        "status": "Northern Runway Approved",
-        "status_color": "#06D6A0",
+        "status": "Ongoing Improvements",
+        "status_color": "#F4A261",
         "status_detail": (
-            "After years of competing with Heathrow's third runway proposals, Gatwick pursued its own "
-            "expansion strategy based on bringing its existing Northern Runway into routine use. "
-            "Planning permission for the Northern Runway was granted in 2024, a major milestone "
-            "after the Airports Commission had originally favoured Heathrow expansion. The approval "
-            "enables Gatwick to increase annual passenger capacity significantly. Construction and "
-            "enabling works are expected to progress through the late 2020s."
+            "Gatwick Airport station has seen incremental improvements as part of the wider Brighton "
+            "Main Line programme and Gatwick's own investment in surface access. The station remains "
+            "capacity-constrained at peak times. With Gatwick's Northern Runway approved in 2024, "
+            "increasing passenger numbers are expected to intensify pressure on the station further, "
+            "and a more comprehensive station upgrade is likely to form part of the airport's "
+            "long-term surface access strategy."
         ),
     },
     {
@@ -379,7 +380,7 @@ STATUS_EMOJI = {
     "Planning Dispute": "⚠️",
     "Scaled Back": "📉",
     "Under Development": "🏗️",
-    "Northern Runway Approved": "✅",
+    "Ongoing Improvements": "🚧",
     "Restoration Ongoing": "🚧",
 }
 
