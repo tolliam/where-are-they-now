@@ -445,7 +445,7 @@ def overview_page():
         <div class="project-header" style="background:linear-gradient(135deg,#1a1a2e,#0f3460);">
           <h1 style="margin:0;font-size:2rem;">📺 Where Are They Now?</h1>
           <p style="margin:.5rem 0 0;opacity:.85;font-size:1.05rem;">
-            11 UK infrastructure projects from 2016–2018 — catching up on where they ended up
+            UK infrastructure projects from 2016–2018 — catching up on where they ended up
           </p>
         </div>""",
         unsafe_allow_html=True,
@@ -538,7 +538,7 @@ def main():
 
         st.divider()
         st.markdown(
-            "<small>11 infrastructure projects across England and Wales. "
+            "<small>Infrastructure projects across England and Wales. "
             "Select a project to explore its history and current status.</small>",
             unsafe_allow_html=True,
         )
