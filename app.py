@@ -3,7 +3,7 @@ import folium
 from streamlit_folium import st_folium
 
 st.set_page_config(
-    page_title="Arup UK Projects | 2016–2018",
+    page_title="Where Are They Now? | UK Infrastructure Projects",
     page_icon="🏗️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -285,9 +285,9 @@ def overview_page():
     st.markdown(
         """
         <div class="project-header" style="background:linear-gradient(135deg,#1a1a2e,#0f3460);">
-          <h1 style="margin:0;font-size:2rem;">🏗️ Arup UK Projects</h1>
+          <h1 style="margin:0;font-size:2rem;">📺 Where Are They Now?</h1>
           <p style="margin:.5rem 0 0;opacity:.85;font-size:1.05rem;">
-            Infrastructure across England &amp; Wales worked on during 2 years at Arup · 2016–2018
+            Six UK infrastructure projects from 2016–2018 — catching up on where they ended up
           </p>
         </div>""",
         unsafe_allow_html=True,
@@ -350,7 +350,7 @@ def project_page(proj: dict):
         st_folium(m, use_container_width=True, height=420, returned_objects=[])
 
     with detail_col:
-        st.markdown("#### About the Project")
+        st.markdown("#### The Project")
         for para in proj["description"].split("\n\n"):
             st.markdown(para)
 
@@ -369,11 +369,11 @@ def project_page(proj: dict):
 
 def main():
     with st.sidebar:
-        st.markdown("## 🏗️ Arup Projects")
+        st.markdown("## 📺 Where Are They Now?")
         st.markdown("*UK Infrastructure · 2016–2018*")
         st.divider()
 
-        options = ["🗺️  All Projects Overview"] + [
+        options = ["🗺️  All Six Projects"] + [
             f"{STATUS_EMOJI.get(p['status'], '📍')}  {p['name']}" for p in PROJECTS
         ]
         selected_idx = st.radio("Navigate:", range(len(options)), format_func=lambda i: options[i], index=0)
