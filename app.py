@@ -452,33 +452,45 @@ def overview_page():
         unsafe_allow_html=True,
     )
 
-    map_col, list_col = st.columns([3, 2])
+    m = build_map()
+    st_folium(m, use_container_width=True, height=520, returned_objects=[])
 
-    with map_col:
-        m = build_map()
-        st_folium(m, use_container_width=True, height=520, returned_objects=[])
+    st.markdown("<div style='height:1.5rem'></div>", unsafe_allow_html=True)
 
-    with list_col:
-        st.markdown("### All Projects")
-        for p in PROJECTS:
-            emoji = STATUS_EMOJI.get(p["status"], "📍")
-            sc = p["status_color"]
+    # Project tiles — 3 columns
+    cols = st.columns(3)
+    for i, p in enumerate(PROJECTS):
+        emoji = STATUS_EMOJI.get(p["status"], "📍")
+        sc = p["status_color"]
+        with cols[i % 3]:
             st.markdown(
-                f"""<div class="project-card" style="border-left-color:{p['color']};">
-                  <div style="font-weight:600;color:#1a1a2e;">{p['name']}</div>
-                  <div style="font-size:12px;color:#666;margin:2px 0 6px;">{p['location']}</div>
-                  <span style="background:{sc};color:white;padding:2px 10px;border-radius:10px;font-size:11px;">
-                    {emoji} {p['status']}
-                  </span>
+                f"""
+                <div style="
+                    background:white;
+                    border-radius:10px;
+                    overflow:hidden;
+                    margin-bottom:1rem;
+                    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+                    border:1px solid #e9ecef;
+                    transition:box-shadow .2s;
+                ">
+                  <div style="background:{p['color']};height:5px;"></div>
+                  <div style="padding:1rem;">
+                    <div style="font-weight:700;font-size:.95rem;color:#1a1a2e;margin-bottom:2px;">{p['name']}</div>
+                    <div style="font-size:11px;color:#888;margin-bottom:10px;">📍 {p['location']}</div>
+                    <div style="font-size:12px;color:#444;line-height:1.5;margin-bottom:12px;">{p['brief']}</div>
+                    <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px;">
+                      <span style="background:{p['color']}18;color:{p['color']};padding:2px 9px;border-radius:20px;font-size:10px;font-weight:700;">
+                        {p['type']}
+                      </span>
+                      <span style="background:{sc};color:white;padding:2px 9px;border-radius:20px;font-size:10px;font-weight:600;">
+                        {emoji} {p['status']}
+                      </span>
+                    </div>
+                  </div>
                 </div>""",
                 unsafe_allow_html=True,
             )
-
-    st.markdown("---")
-    st.caption(
-        "Click a project in the sidebar to explore its history and current status. "
-        "Click any map marker to see a summary popup."
-    )
 
 
 def project_page(proj: dict):
