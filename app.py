@@ -216,34 +216,34 @@ PROJECTS = [
         ),
     },
     {
-        "id": "mhqw",
-        "name": "MNQW+ Manchester",
-        "subtitle": "Motorway Network Quality Works Package",
-        "location": "Greater Manchester Motorway Network",
+        "id": "mnwq",
+        "name": "Manchester North West Quadrant",
+        "subtitle": "M60 Strategic Study (MNWQ)",
+        "location": "M60 North West Quadrant, Greater Manchester",
         "coords": [53.4350, -2.2900],
-        "type": "Motorway / Smart Highways",
+        "type": "Motorway / Strategic Study",
         "color": "#FF6D00",
         "years": "2016–2018",
-        "brief": "Package of smart motorway upgrades and highway improvement works across the Greater Manchester motorway network including the M60, M62, and M56.",
+        "brief": "Highways England strategic study examining options to improve capacity and reliability on the north-west quadrant of the M60 orbital motorway around Manchester.",
         "description": (
-            "The MNQW+ (Motorway Network Quality Works) programme was a Highways England framework "
-            "package delivering smart motorway technology, traffic management systems, and structural "
-            "maintenance works across the heavily trafficked motorway corridors around Greater Manchester. "
-            "The work covered the M60 orbital, the M62 trans-Pennine corridor, and the M56 south of "
-            "the city.\n\n"
-            "Arup's role (2016–2018) included detailed design for gantry structures, variable message "
-            "signs, emergency refuge areas, and drainage improvements, as part of the wider smart "
-            "motorway conversion programme."
+            "The Manchester North West Quadrant (MNWQ) was one of six strategic studies commissioned "
+            "by Highways England to inform the second Road Investment Strategy (RIS2). It examined "
+            "options for improving east-west road connections around the north-west arc of the M60, "
+            "one of the most congested sections of motorway in the North of England, with ambitions "
+            "to support the Northern Powerhouse agenda.\n\n"
+            "The study ran through multiple stages: a Stage 3 report was published in November 2016. "
+            "Arup's involvement spanned the strategic options assessment, traffic modelling, and "
+            "development of improvement schemes for the M60 corridor."
         ),
-        "status": "Completed / Policy Reversed",
-        "status_color": "#FF6B6B",
+        "status": "Scaled Back",
+        "status_color": "#ADB5BD",
         "status_detail": (
-            "The infrastructure works under the MNQW+ package were substantially completed. However, "
-            "the wider smart motorway programme it was part of became highly controversial following "
-            "a series of fatal accidents on all-lane-running motorways. In 2023, the UK Government "
-            "announced it was pausing and reviewing the smart motorway programme, with National Highways "
-            "subsequently confirming no new all-lane-running schemes would be built. Existing completed "
-            "schemes remain in operation but some emergency refuge areas have been retrospectively added."
+            "The Government confirmed in March 2019, as part of the RIS2 announcement, that the "
+            "transformational options originally identified for the MNWQ would have unacceptable "
+            "adverse impacts on local communities and did not represent good value for money. "
+            "Highways England were asked to refocus the study on smaller, more targeted packages "
+            "of improvements for the 2020–2025 investment period. The grand vision for the north-west "
+            "quadrant was quietly shelved — another major scheme that never made it off the drawing board."
         ),
     },
     {
@@ -377,7 +377,7 @@ STATUS_EMOJI = {
     "Pre-Construction": "📋",
     "Cancelled": "❌",
     "Planning Dispute": "⚠️",
-    "Completed / Policy Reversed": "↩️",
+    "Scaled Back": "📉",
     "Under Development": "🏗️",
     "Northern Runway Approved": "✅",
     "Restoration Ongoing": "🚧",
