@@ -217,8 +217,8 @@ PROJECTS = [
     },
     {
         "id": "mhqw",
-        "name": "MHQW+ Manchester",
-        "subtitle": "Motorway Highways Quality Works Package",
+        "name": "MNQW+ Manchester",
+        "subtitle": "Motorway Network Quality Works Package",
         "location": "Greater Manchester Motorway Network",
         "coords": [53.4350, -2.2900],
         "type": "Motorway / Smart Highways",
@@ -226,7 +226,7 @@ PROJECTS = [
         "years": "2016–2018",
         "brief": "Package of smart motorway upgrades and highway improvement works across the Greater Manchester motorway network including the M60, M62, and M56.",
         "description": (
-            "The MHQW+ (Motorway Highways Quality Works) programme was a Highways England framework "
+            "The MNQW+ (Motorway Network Quality Works) programme was a Highways England framework "
             "package delivering smart motorway technology, traffic management systems, and structural "
             "maintenance works across the heavily trafficked motorway corridors around Greater Manchester. "
             "The work covered the M60 orbital, the M62 trans-Pennine corridor, and the M56 south of "
@@ -238,7 +238,7 @@ PROJECTS = [
         "status": "Completed / Policy Reversed",
         "status_color": "#FF6B6B",
         "status_detail": (
-            "The infrastructure works under the MHQW+ package were substantially completed. However, "
+            "The infrastructure works under the MNQW+ package were substantially completed. However, "
             "the wider smart motorway programme it was part of became highly controversial following "
             "a series of fatal accidents on all-lane-running motorways. In 2023, the UK Government "
             "announced it was pausing and reviewing the smart motorway programme, with National Highways "
