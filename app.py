@@ -215,6 +215,160 @@ PROJECTS = [
             "providing century-long protection against coastal flooding for Southsea and Old Portsmouth."
         ),
     },
+    {
+        "id": "mhqw",
+        "name": "MHQW+ Manchester",
+        "subtitle": "Motorway Highways Quality Works Package",
+        "location": "Greater Manchester Motorway Network",
+        "coords": [53.4350, -2.2900],
+        "type": "Motorway / Smart Highways",
+        "color": "#FF6D00",
+        "years": "2016–2018",
+        "brief": "Package of smart motorway upgrades and highway improvement works across the Greater Manchester motorway network including the M60, M62, and M56.",
+        "description": (
+            "The MHQW+ (Motorway Highways Quality Works) programme was a Highways England framework "
+            "package delivering smart motorway technology, traffic management systems, and structural "
+            "maintenance works across the heavily trafficked motorway corridors around Greater Manchester. "
+            "The work covered the M60 orbital, the M62 trans-Pennine corridor, and the M56 south of "
+            "the city.\n\n"
+            "Arup's role (2016–2018) included detailed design for gantry structures, variable message "
+            "signs, emergency refuge areas, and drainage improvements, as part of the wider smart "
+            "motorway conversion programme."
+        ),
+        "status": "Completed / Policy Reversed",
+        "status_color": "#FF6B6B",
+        "status_detail": (
+            "The infrastructure works under the MHQW+ package were substantially completed. However, "
+            "the wider smart motorway programme it was part of became highly controversial following "
+            "a series of fatal accidents on all-lane-running motorways. In 2023, the UK Government "
+            "announced it was pausing and reviewing the smart motorway programme, with National Highways "
+            "subsequently confirming no new all-lane-running schemes would be built. Existing completed "
+            "schemes remain in operation but some emergency refuge areas have been retrospectively added."
+        ),
+    },
+    {
+        "id": "temple_quarter",
+        "name": "Temple Quarter Enterprise Zone",
+        "subtitle": "Urban Regeneration Masterplan",
+        "location": "Bristol Temple Meads, Bristol",
+        "coords": [51.4500, -2.5870],
+        "type": "Urban Regeneration",
+        "color": "#009688",
+        "years": "2016–2018",
+        "brief": "Masterplanning and infrastructure strategy for Bristol's 130-hectare Temple Quarter Enterprise Zone, the largest regeneration project outside London.",
+        "description": (
+            "The Temple Quarter Enterprise Zone covers approximately 130 hectares around Bristol Temple "
+            "Meads station, earmarked as one of the UK's most significant regeneration opportunities. "
+            "The zone was designated to drive economic growth, deliver tens of thousands of new jobs, "
+            "and create a new mixed-use urban quarter connecting the station to the wider city.\n\n"
+            "Arup's work (2016–2018) contributed to the strategic infrastructure and transport masterplan, "
+            "examining utility capacity, highways access, pedestrian connectivity, and the phasing of "
+            "development across the enterprise zone."
+        ),
+        "status": "Under Development",
+        "status_color": "#F4A261",
+        "status_detail": (
+            "Bristol City Council and Homes England have continued to progress the Temple Quarter "
+            "programme through the early 2020s. The Temple Quarter Spatial Framework was adopted "
+            "as planning policy. Early development plots are coming forward, and the University of "
+            "Bristol's new Temple Quarter campus — a major anchor institution — has been a central "
+            "driver of the zone. As of 2024–2025, the programme is in active development with multiple "
+            "planning applications in progress across the zone."
+        ),
+    },
+    {
+        "id": "gatwick",
+        "name": "Gatwick Development",
+        "subtitle": "Airport & Station Area Planning Statement",
+        "location": "Gatwick Airport, West Sussex",
+        "coords": [51.1537, -0.1821],
+        "type": "Aviation / Mixed Use",
+        "color": "#37474F",
+        "years": "2016–2018",
+        "brief": "Planning and infrastructure work supporting development proposals at Gatwick Airport and its surrounding station and business district.",
+        "description": (
+            "Gatwick Airport has been the subject of long-running debate around capacity, expansion, "
+            "and the development of the surrounding area. The work at Arup (2016–2018) involved "
+            "transport and infrastructure assessment to support planning statements for development "
+            "in and around the airport estate, including the station interchange and adjacent "
+            "commercial areas.\n\n"
+            "This included transport modelling, surface access strategy, and structural input for "
+            "proposed development parcels in the Gatwick Airport Limited (GAL) masterplan area."
+        ),
+        "status": "Northern Runway Approved",
+        "status_color": "#06D6A0",
+        "status_detail": (
+            "After years of competing with Heathrow's third runway proposals, Gatwick pursued its own "
+            "expansion strategy based on bringing its existing Northern Runway into routine use. "
+            "Planning permission for the Northern Runway was granted in 2024, a major milestone "
+            "after the Airports Commission had originally favoured Heathrow expansion. The approval "
+            "enables Gatwick to increase annual passenger capacity significantly. Construction and "
+            "enabling works are expected to progress through the late 2020s."
+        ),
+    },
+    {
+        "id": "bristol_temple_meads",
+        "name": "Bristol Temple Meads Redevelopment",
+        "subtitle": "Historic Station Restoration & Development",
+        "location": "Temple Meads, Bristol",
+        "coords": [51.4490, -2.5810],
+        "type": "Rail / Heritage",
+        "color": "#6A1B9A",
+        "years": "2017–2018",
+        "brief": "Restoration and redevelopment of Brunel's historic Bristol Temple Meads station, including the Grade I listed original terminus building.",
+        "description": (
+            "Bristol Temple Meads is one of the most significant railway heritage sites in the world, "
+            "encompassing Brunel's original 1840 terminus — the oldest surviving mainline railway "
+            "terminus in existence — alongside the later Victorian station building. The redevelopment "
+            "programme aimed to restore the listed structures, improve passenger experience, and "
+            "unlock the disused Brunel terminus for new uses.\n\n"
+            "Arup's involvement (2017–2018) covered structural assessment of the historic fabric, "
+            "engineering input into the restoration strategy, and feasibility work for new uses "
+            "within the Brunel terminus building."
+        ),
+        "status": "Restoration Ongoing",
+        "status_color": "#F4A261",
+        "status_detail": (
+            "The restoration of Bristol Temple Meads has proceeded in stages, led by Network Rail "
+            "and Historic England with support from the Temple Quarter Enterprise Zone programme. "
+            "The Brunel terminus building has been used as an events and arts space. Significant "
+            "capital investment has been secured for further restoration works. The wider station "
+            "upgrade is tied to the Temple Quarter regeneration, with improvements to the passenger "
+            "concourse and better connections to the surrounding development zone planned for the "
+            "late 2020s."
+        ),
+    },
+    {
+        "id": "brabazon",
+        "name": "Brabazon, Filton",
+        "subtitle": "New Neighbourhood on Former Airfield",
+        "location": "Filton, Bristol",
+        "coords": [51.5105, -2.5836],
+        "type": "Urban Regeneration",
+        "color": "#F57F17",
+        "years": "2016–2018",
+        "brief": "Masterplanning for a new urban neighbourhood on the 380-acre former Filton Airfield, where Concorde and the Bristol Brabazon were once built.",
+        "description": (
+            "The Brabazon development occupies the 380-acre former Filton Airfield in North Bristol — "
+            "the historic birthplace of Concorde and the Bristol Brabazon aircraft. The site was "
+            "acquired by YTL Developments with ambitions to create a new urban quarter including "
+            "thousands of new homes, commercial space, a major arena, a new railway station, parks, "
+            "and schools.\n\n"
+            "Arup's work (2016–2018) covered early-stage infrastructure planning and masterplan "
+            "support, including transport modelling, utilities strategy, and assessment of the "
+            "structural legacy of the former runway and airfield infrastructure."
+        ),
+        "status": "Under Construction",
+        "status_color": "#F4A261",
+        "status_detail": (
+            "The Brabazon development has progressed significantly under YTL Developments. "
+            "The YTL Arena Bristol — a 17,000-capacity indoor arena on the airfield site — "
+            "opened in 2024 and has become one of the UK's largest indoor venues. Residential "
+            "development across the wider site is underway, with thousands of homes planned. "
+            "A new Filton Parkway railway station to serve the development is in planning. "
+            "The project represents one of the largest brownfield regeneration schemes in the UK."
+        ),
+    },
 ]
 
 STATUS_EMOJI = {
@@ -223,6 +377,10 @@ STATUS_EMOJI = {
     "Pre-Construction": "📋",
     "Cancelled": "❌",
     "Planning Dispute": "⚠️",
+    "Completed / Policy Reversed": "↩️",
+    "Under Development": "🏗️",
+    "Northern Runway Approved": "✅",
+    "Restoration Ongoing": "🚧",
 }
 
 
